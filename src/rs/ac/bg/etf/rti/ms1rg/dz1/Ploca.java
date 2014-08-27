@@ -7,8 +7,8 @@ import java.awt.geom.*;
 public class Ploca implements MouseMotionListener {
 	private final static Color boja = new Color(20, 100, 100);
 	
-	final static float VISINA = 20;
-	final static float SIRINA = 80;
+	final static float VISINA = 10;
+	final static float SIRINA = 100;
 
 	private final static RoundRectangle2D OBLIK = new RoundRectangle2D.Float(-SIRINA/2, 0, SIRINA, VISINA, 3f, 3f);
 	

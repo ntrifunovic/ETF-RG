@@ -11,7 +11,7 @@ public class Lopta implements Runnable, MouseListener {
 	private Color boja = new Color(50, 50, 90);
 	private float x, y;
 	private float vx, vy;
-	private final static float PRECNIK = 25;
+	private final static float PRECNIK = 20;
 	
 	private final static Ellipse2D OBLIK = new Ellipse2D.Float(-PRECNIK/2, -PRECNIK/2, PRECNIK, PRECNIK);
 	
